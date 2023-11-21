@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #f6f8fa;
+}
+nav .bloggernav {
+  width: 90%;
+  height: 100%;
+}
+nav .bloggernav .bloggerlogo {
+  width: 125px;
+  height: 40px;
+}
+nav .bloggernav .navbarall {
+  justify-content: flex-end;
+}
+nav .bloggernav .navbarall .navbarUl {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  gap: 34px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #222222;
+}
+nav .bloggernav .navbarall .navbarUl li a:hover {
+  color: #69B4FD;
+}
+nav .bloggernav .navbarall .navbarUl .wordlist {
+  font-weight: 600;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli .pageslist {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli .pageslist i {
+  font-size: 12px;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli:hover .pagesdropdown {
+  display: block;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli .pagesdropdown {
+  display: none;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli .pagesdropdown ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli .pagesdropdown ul li {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+nav .bloggernav .navbarall .navbarUl .pageslistli .pagesdropdown ul li:hover {
+  color: #69B4FD;
+}

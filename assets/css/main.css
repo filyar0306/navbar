@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #343A40;
+}
+nav .server {
+  width: 90%;
+  height: 100%;
+}
+nav .server .servernav {
+  width: 80%;
+  height: 100%;
+}
+nav .server .servernav .serverUl {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .server .servernav .serverUl .serverLi {
+  position: relative;
+}
+nav .server .servernav .serverUl .serverLi a {
+  font-size: 18px;
+  color: #ADB6C1;
+  line-height: 35PX;
+}
+nav .server .servernav .serverUl .serverLi a:hover {
+  color: white;
+}
+nav .server .servernav .buttonAll {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+nav .server .servernav .buttonAll .register {
+  height: 75%;
+  width: 50%;
+  background-color: #343A40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 35px;
+  color: white;
+  border: 1.7px solid #7CBD1E;
+  border-radius: 0;
+}
+nav .server .servernav .buttonAll .register:hover {
+  background-color: #7CBD1E;
+}
+nav .server .servernav .buttonAll .login {
+  height: 75%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7CBD1E;
+  color: white;
+  border: none;
+  font-size: 16px;
+  line-height: 35px;
+  border-radius: 0;
+}
+nav .server .servernav .buttonAll .login:hover {
+  background-color: #669c19;
+}

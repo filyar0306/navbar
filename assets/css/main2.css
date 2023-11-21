@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background-color: #f0ecec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .adoptednav {
+  width: 85%;
+  height: 100%;
+}
+nav .adoptednav .AdoptedLogo {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+}
+nav .adoptednav .adoptednav {
+  justify-content: flex-end;
+}
+nav .adoptednav .adoptednav .adoptednavul {
+  display: flex;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+nav .adoptednav .adoptednav .adoptednavul .contactlist {
+  color: #c45349;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist {
+  width: auto;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist .Adoptionlistli {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: black;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist .Adoptionlistli i {
+  font-size: 15px;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist:hover .Adoptiondropdown {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  display: block;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist .Adoptiondropdown {
+  display: none;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist .Adoptiondropdown ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist .Adoptiondropdown ul li {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  font-size: 16px;
+  color: #212529;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+nav .adoptednav .adoptednav .adoptednavul .Adoptionlist .Adoptiondropdown ul li:hover {
+  color: white;
+}

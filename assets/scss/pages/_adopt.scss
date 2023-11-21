@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background-color: #f0ecec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .adoptednav {
+        width: 85%;
+        height: 100%;
+
+        .AdoptedLogo {
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            font-weight: 400;
+           
+        }
+
+        .adoptednav {
+            justify-content: flex-end;
+
+            .adoptednavul { 
+                display: flex;
+                font-size: 19px;
+                font-weight: 600;
+                line-height: 30px;
+                color: #00000080;
+
+                .contactlist {
+                    color: #c45349;
+                }
+
+                .Adoptionlist {
+                    width: auto;
+                    .Adoptionlistli {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        color: black;
+
+                        i {
+                            font-size: 15px;
+                        }
+
+                    }
+
+                    &:hover .Adoptiondropdown {
+                        display: flex;
+                        justify-content: center;
+                        position: absolute;
+                        display: block;
+
+                    }
+
+                    .Adoptiondropdown {
+                        display: none;
+
+
+                        ul {
+                            list-style: none;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+
+
+
+                            li {
+                                width: 100%;
+                                display: flex;
+                                justify-content: start;
+                                font-size: 16px;
+                              color: #212529;
+    
+                                cursor: pointer;
+                                transition: .5s ease;
+
+                                &:hover {
+                                    color: white;
+                                  
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
